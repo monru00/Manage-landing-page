@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    display: block;
+}
+body{
+    font-family: 'Be Vietnam Pro';
+}
+.nav{
+    display: flex;
+    margin: 0 0 57px 165px ;
+}
+.nav-img{
+    margin: 73px 210px 120px 0;
+    height: 20px;
+}
+.nav-a{
+    font-size: 12px;
+    margin: 75px 220px 135px 0;
+    font-weight: 400;
+    display: flex;
+}
+.nav-a a{
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+}
+.nav-a a:hover{
+    color: hsl(14, 7%, 63%);
+}
+.nav-btn{
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    border: none;
+    margin: 60px 0 0px 0; 
+    display: block !important;
+    box-shadow: 0 4px 2px -2px hsl(12, 87%, 58%);
+}
+.nav-btn:hover{
+    background-color: hsl(12, 58%, 53%);
+}
+.nav-a1,.nav-a2,.nav-a3,.nav-a4{
+    margin-right: 33px;
+}
+/********************* Nav bar end ***************************/
+.section-1{
+    display: flex;
+    margin: 0 0 105px 168px;
+    position: relative;
+}
+.s1-bgimg{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.h1-s1{
+    font-size: 50px;
+    color: hsl(228, 39%, 23%);
+    line-height: 55px;
+    margin-bottom: 48px;
+    margin-right: 110px;
+}
+.p1-s1{
+    color: hsl(227, 12%, 61%);
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.s1-btn{
+    margin: 0;
+}
+.d2-s1{
+   margin-top: -70px;
+}
+/********************* section-1 end ***************************/
+.s2-btn1,.s2-btn2,.s2-btn3{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+}
+.section-2{
+    display: flex;
+    margin-left: 165px;
+    margin-bottom: 103px;
+}
+.d1-s2{
+    margin-right: 150px;
+}
+.d1-s2 h1{
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 45px;
+    color: hsl(228, 39%, 23%);
+    font-size: 40px;
+}
+.d1-s2 p{
+    color: hsl(227, 12%, 61%);
+    line-height: 25px;
+} 
+.first,.second,.third{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 17px;
+}
+.first h2,.second h2,.third h2{
+    font-size: 16px;
+    color: hsl(228, 39%, 23%);
+    margin-top: 10px;
+}
+.sub-1 p,.sub-2 p,.sub-3 p{
+    padding: 0 0 45px 95px;
+    line-height: 28px;
+    color: hsl(227, 12%, 61%);
+}
+/*******************section-2 end here********************/
+.section-3{
+    margin-bottom: 180px;
+}
+.d1-s3{
+    color: hsl(228, 39%, 23%);
+    text-align: center;
+    font-size: 35px;
+}
+.w-w{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.s3-t1{
+    width: 420px;
+    height: 220px;
+    background-color: hsl(0, 0%, 98%);
+}
+.s3-h1{
+    font-size: 16px;
+    color: hsl(228, 39%, 23%);
+    padding: 64px 0 22px 120px;
+}
+.s3-p{
+    font-size: 14px;
+    color: hsl(227, 12%, 61%);
+    font-weight: 400;
+    margin-left: 34px;
+}
+.s3-btn{
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    border: none;
+    margin-left: 620px;
+}
+.s3-btn:hover{
+    background-color: hsl(12, 58%, 53%)
+}
+/*******************section 3 end here********************/
+.section-4{
+    width: 100%;
+    height: 220px;
+    background-color: hsl(12, 88%, 59%);
+    display: flex;
+    padding: 55px;
+}
+.h1-s4{
+    color: white;
+    font-size: 40px;
+    margin-right: 540px;
+    font-weight: 400;
+}
+.s4-btn{
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    color: hsl(12, 88%, 59%);
+    background-color: hsl(0, 0%, 98%);
+    border: none;
+    margin-top: 35px;
+}
+.s4-btn:hover{
+    background-color: hsl(0, 12%, 69%);
+}
+/***************end of section 4 *********************/
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: hsl(233, 12%, 13%);
+    display: flex;
+}
+.fo-im-1{
+    color: white;
+    margin: 62px 0 90px 0;
+}
+.d1-fo{
+    padding-left: 170px;
+    margin-right: 123px;
+}
+.d2-fo{
+    line-height: 35px;
+    margin-top: 58px;
+    margin-right: 222px;
+}
+.d2-fo a{
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+    font-size: 16px;
+}
+.d3-fo{
+    line-height: 35px;
+    margin-top: 58px;
+    margin-right: 173px;
+}
+.d3-fo a{
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+    font-size: 16px;
+}
+.f-input{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+}
+.d4-child{
+    display: flex;
+    margin: 65px 0 65px 0;
+    gap: 8px;
+}
+.d4-child button{
+    width: 66px;
+    height: 45px;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+.d4-child button:hover{
+    background-color: hsl(12, 58%, 53%)
+}
+.f-p1{
+    color: hsl(227, 12%, 61%);
+    font-size: 12px;
+}
+.footer a:hover{
+    color: hsl(14, 7%, 63%);
+}
